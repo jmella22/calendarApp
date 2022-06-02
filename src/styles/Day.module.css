@@ -1,0 +1,35 @@
+.container1 {
+  border: 1px solid;
+  /* border-color: rgb(229 231 235); */
+  border-color: rgb(229 231 235);
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.day1 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.25rem;
+}
+.day2 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+  cursor: pointer;
+}
+.today {
+  background-color: rgb(37 99 235);
+  color: rgb(255 255 255);
+  border-radius: 9999px;
+  width: 1.75rem;
+}
+.container11 {
+  flex: 1 1 0%;
+}
